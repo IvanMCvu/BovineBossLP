@@ -1,0 +1,234 @@
+.body {
+    font-size: 14px;
+    background-color : #DBF9FC;
+}
+
+.header_bg {
+    box-sizing: border-box;
+    position: absolute;
+    width: 83%;
+    height: 68px;
+    left: 17%;
+    top: 0px;
+    background: #644229;
+}
+
+.side_bg {
+    box-sizing: border-box;
+    position: absolute;
+    width: 17%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+
+.title{
+    position: absolute;
+    width: 810px;
+    height: 67px;
+    left: 36%;
+    top: 0px;
+
+    font-family: 'Galdeano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.wood {
+    background: url("madera.jpg");
+    position: absolute;
+    box-sizing: border-box;
+    width: 83%;
+    height: 89%;
+    left: 17%;
+    top: 68px;
+}
+
+.bg_home{
+    box-sizing: border-box;
+    position: absolute;
+    width: 68%;
+    height: 89%;
+    left: 25%;
+    top: 68px;
+
+    background: #FFFDFD;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.text_BB{
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    font-family: 'Galdeano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 38px;
+    text-align: center;    
+    color: #000000;
+}
+
+.box_up{
+    box-sizing: border-box;
+    position: absolute;
+    width: 28%;
+    height: 57%;
+    left: 27%;
+    top: 33%;
+    border-width: 3px 0px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.box_down{
+    box-sizing: border-box;
+    position: absolute;
+    width: 26%;
+    height: 54%;
+    left: 28%;
+    top: 34.5%;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.text_home{
+    box-sizing: border-box;
+    position: absolute;
+    left: 32%;
+    top: 46%;
+    font-family: 'Galdeano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+.logo{
+    position: absolute;
+    width: 33.5%;
+    height: 65%;
+    left: 58%;
+    top: 28%;
+    background: url(Logo.png);
+}
+
+.menu{
+    position: absolute;
+    width: 50.67px;
+    height: 40px;
+    left: 19px;
+    top: 12px;
+    background: url(Menu.png);
+}
+
+.worker{
+    position: absolute;
+    width: 55px;
+    height: 56px;
+    left: 1%;
+    top: 16.5%;
+    background: url(Worker.png);
+}
+
+.farm{
+    position: absolute;
+    width: 55px;
+    height: 56px;
+    left: 1%;
+    top: 36.5%;
+    background: url(Farm.png);
+}
+
+.admin{
+    position: absolute;
+    width: 55px;
+    height: 56px;
+    left: 1%;
+    top: 55%;
+    background: url(Admin.png);
+}
+
+.text_worker{
+    position: absolute;
+    left: 7%;
+    top: 15%;
+    font-family: 'Galdeano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.box_worker{
+    box-sizing: border-box;
+    position: absolute;
+    width: 16%;
+    height: 12.5%;
+    left: 0px;
+    top: 15%;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+
+.text_farm{
+    position: absolute;
+    left: 45%;
+    top: 160%;
+    font-family: 'Galdeano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.box_farm{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 160%;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.text_admin{
+    position: absolute;
+    left: 80px;
+    top: 315%;
+    font-family: 'Galdeano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.box_admin{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 315%;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}

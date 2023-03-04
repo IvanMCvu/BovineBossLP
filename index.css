@@ -1,0 +1,198 @@
+body {
+    font-size: 14px;
+    background-color : #DBF9FC;
+  }
+
+.header_bg {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+    background: #644229;
+}
+
+.wood {
+    background: url("madera.jpg");
+    position: absolute;
+    box-sizing: border-box;
+    width: 50%;
+    height: 89%;
+    left: 0px;
+    top: 68px;
+}
+
+.logo{
+    background: url("bbLOGO\ 1.png");
+    position: relative;
+    width: 315px;
+    height: 265.21px;
+    left: 13%;
+    top: 200px;
+}
+
+.bg_login{
+    box-sizing: border-box;
+    position: absolute;
+    width: 50%;
+    height: 89%;
+    left: 50%;
+    top: 68px;
+
+    background: #FFFDFD;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.box_up_login{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 375px;
+    height: 326px;
+    left: 62%;
+    top: 30%;
+
+    border-width: 3px 0px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.box_down_login{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 354px;
+    height: 312px;
+    left: 63%;
+    top: 31%;
+
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.text_login_up{
+    position: absolute;
+    width: 294px;
+    height: 65px;
+    left: 66%;
+    top: 33%;
+
+    font-family: 'Galdeano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.text_user{
+    position: absolute;
+    width: 228px;
+    height: 39px;
+    left: 64%;
+    top: 45%;
+
+    font-family: 'Galdeano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.text_password{
+    position: absolute;
+    width: 248px;
+    height: 44px;
+    left: 64%;
+    top: 58%;
+
+    font-family: 'Galdeano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.textfiel1{
+    position: absolute;
+    width: 301px;
+    height: 35px;
+    left: 64%;
+    top: 50%;
+
+    background: rgba(156, 128, 109, 0.53);
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textfiel2{
+    position: absolute;
+    width: 301px;
+    height: 34px;
+    left: 64%;
+    top: 63%;
+
+    background: rgba(156, 128, 109, 0.53);
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title{
+    position: absolute;
+    width: 810px;
+    height: 67px;
+    left: 38%;
+    top: 0px;
+
+    font-family: 'Galdeano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.b_button{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 130px;
+    height: 42px;
+    left: 69%;
+    top: 71%;
+
+    background: #825534;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.t_button{
+    position: absolute;
+    width: 106px;
+    height: 29px;
+    left: 71.5%;
+    top: 72%;
+
+    font-family: 'Galdeano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
