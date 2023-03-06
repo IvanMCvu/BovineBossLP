@@ -30,7 +30,7 @@ HTML, body{
   margin : 0;
   padding: 0;
   background-image: url("./madera.jpg");
-  height: 100%;
+  height: 89%;
   display: flex;
   justify-content: center;
 }

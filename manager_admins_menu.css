@@ -1,0 +1,258 @@
+HTML, body{
+  font-family: 'EB Garamond', serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.side_bg {
+  box-sizing: border-box;
+  position: absolute;
+  width: 17%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: #000000;
+}
+
+.header_bg{
+  width: 100%;
+  background-color: #644229;
+  margin-left: 17;
+  padding: 0;
+  height: 68px;
+  left: 17%;
+  font-size: 1.3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_bg h1{
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  left: 20%;
+}
+
+.header_bg a{
+  padding-left: 10px;
+}
+
+.main{
+  margin-left : 17%;
+  padding: 0;
+  background-image: url("./madera.jpg");
+  height: 89%;
+  display: flex;
+  justify-content: center;
+}
+
+.content{
+  width: 81%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  background-color: #FFFFFF;
+  flex-direction: column;
+  margin : 0;
+  padding: 0;
+  left: 50%;
+}
+
+.table-title{
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  font-size: 1.5em;
+  margin : 20px 0;
+  padding: 20px 0;
+}
+
+.workers{
+  width: 70%;
+  margin-left: 15%; margin-right: 15%;
+}
+table{
+  font-size: larger;
+}
+th{
+  color: white;
+  background-color: #AD8461;
+
+  text-align: left;
+  padding-right: 20px;
+  padding-left: 10px;
+  height: 40px;
+}
+td{
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.edit-icon{
+  padding-left: 15px;
+  width: 25px;
+}
+.del-icon{
+  width: 25px;
+}
+
+.add-worker{
+  margin: 20px 35%;
+  height: 40px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #644229;
+}
+
+.add-worker:hover{
+  background-color: #AD8461;
+  color: #F0F0F0;
+}
+
+.menu{
+  position: absolute;
+  width: 50.67px;
+  height: 40px;
+  left: 19px;
+  top: 12px;
+  background: url(Menu.png);
+}
+
+.worker{
+  position: absolute;
+  width: 55px;
+  height: 56px;
+  left: 1%;
+  top: 16.5%;
+  background: url(Worker.png);
+}
+
+.farm{
+  position: absolute;
+  width: 55px;
+  height: 56px;
+  left: 1%;
+  top: 36.5%;
+  background: url(Farm.png);
+}
+
+.admin{
+  position: absolute;
+  width: 55px;
+  height: 56px;
+  left: 1%;
+  top: 55%;
+  background: url(Admin.png);
+}
+
+.exit{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1%;
+  top: 75%;
+  background: url(Exit.png);
+}
+
+.text_worker{
+  position: absolute;
+  left: 7%;
+  top: 15%;
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.box_worker{
+  box-sizing: border-box;
+  position: absolute;
+  width: 16%;
+  height: 12.5%;
+  left: 0px;
+  top: 15%;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+
+.text_farm{
+  position: absolute;
+  left: 45%;
+  top: 160%;
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.box_farm{
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 160%;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+.text_admin{
+  position: absolute;
+  left: 80px;
+  top: 315%;
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.box_admin{
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 315%;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+.text_exit{
+  position: absolute;
+  left: 100px;
+  top: 470%;
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.box_exit{
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 470%;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
